@@ -18,6 +18,7 @@ module.exports = {
           let userToReturn = { ...users[i] };
           delete userToReturn.passwordHash;
           res.status(200).send(userToReturn);
+          //added to git
         }
       }
     }
